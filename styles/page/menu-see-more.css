@@ -1,0 +1,181 @@
+/* .menu-here-for-more {
+    position: absolute;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 3.5rem;
+    left: 15%;
+    top: 25%;
+    opacity: 1; 
+    /* Initially hide the menu with opacity */
+    /* animation: fadeIn 0.5s ease forwards; */
+    /* Apply the fade-in animation 
+}
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+.about-me {
+    transition: transform 0.5s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.about-me.menu-see-more.hidden {
+    background-color: transparent;
+    /* Set the background color to transparent */
+}
+
+.about-me.menu-see-more {
+    overflow: hidden;
+    background-color: transparent;
+    /* Set the background color to transparent */
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+    /* Apply the transition for sliding in */
+}
+
+.menu-video {
+    width: 100%;
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.menu-item-list {
+    position: absolute;
+    font-size: 3.5rem;
+    font-weight: 450;
+    color: #ffffff;
+    left: 15%;
+    z-index: 2;
+}
+
+.menu-item-list.item-1 {
+    top: 25%;
+    transition: transform 0.3s ease; 
+}
+
+.menu-item-list.item-2 {
+    top: 34%;
+    transition: transform 0.3s ease;
+}
+
+.menu-item-list.item-3 {
+    top: 43%;
+    transition: transform 0.3s ease;
+}
+
+.menu-item-list.item-4 {
+    top: 52%;
+    transition: transform 0.3s ease;
+}
+
+.menu-item-list.item-1:hover, .menu-item-list.item-2:hover, .menu-item-list.item-3:hover, .menu-item-list.item-4:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.menu-item-list.item-1.animation-1 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 0.8s ease;
+}
+
+.menu-item-list.item-1.animation-1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.menu-item-list.item-2.animation-2 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 0.8s ease;
+    transition-delay: 0.2s;
+}
+
+.menu-item-list.item-2.animation-2.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.menu-item-list.item-3.animation-3 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 0.8s ease;
+    transition-delay: 0.4s;
+}
+
+.menu-item-list.item-3.animation-3.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.menu-item-list.item-4.animation-4 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 0.8s ease;
+    transition-delay: 0.6s;
+}
+
+.menu-item-list.item-4.animation-4.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.menu-item-list::before {
+    
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 3.5rem;
+    background-color: #616161;
+    transition: width 0.5s ease;
+    z-index: -1;
+}
+
+.menu-item-list:hover::before {
+    width: 250%;
+}
+
+.close-button {
+    position: absolute;
+    color: #ffffff;
+    font-size: 7rem;
+    top: -9%;
+    left: 3%;
+    transform: rotate(45deg);
+    transition: transform 0.9s ease;
+}
+
+.close-button:hover {
+    transform: rotate(270deg) scale(1.2);
+    cursor: pointer;
+}
+
+.logo-image.menu {
+    width: 7%;
+    top: 4%;
+    left: 90%;
+    position: absolute;
+    z-index: 1;
+}
+

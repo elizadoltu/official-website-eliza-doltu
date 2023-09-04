@@ -1,0 +1,106 @@
+.about-me {
+    background-color: #000000;
+}
+
+.me-photo {
+    width: 85%;
+    margin-left: 50%;
+    object-fit: cover;
+}
+
+.about-me-content {
+    position: absolute;
+    margin-top: 350px;
+    left: 15%;
+}
+
+.about-me-title {
+    /* color: transparent; */
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 350px;
+    left: 15%;
+    text-align: left;
+    font-size: 4.5rem;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-50%);
+    transition: all 1.5s ease;
+    
+    /* -webkit-text-stroke: 2px #ffffff; */
+}
+
+.about-me-title.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.about-me-description {
+    color: #ffffff;
+    position: absolute;
+    width: 600px;
+    left: 15%;
+    margin-top: 250px;
+    font-size: 2rem;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-20%);
+    transition: all 1.7s ease;
+}
+
+.about-me-description.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.here-for-more {
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+    /* border-color: #ffffff; */
+    border: 0;
+    border-radius: 10px;
+    left: 15%;
+    margin-top: 600px;
+    font-size: 2rem;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-20%);
+    transition: all 0.8s ease;
+    transition-delay: transform 1.8s;
+}
+
+.here-for-more.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.here-for-more:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.about-me-title.title-1 {
+    color: transparent;
+    -webkit-text-stroke: 2px #c13268;
+}
+
+.about-me-title.title-2 {
+    color: #c13268;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+    
+    0%, 100% {
+        clip-path: polygon(0 24%, 17% 30%, 29% 39%, 36% 51%, 51% 62%, 67% 60%, 77% 51%, 88% 43%, 100% 38%, 100% 100%, 1% 100%);
+    }
+    50% {
+        clip-path: polygon(0 63%, 12% 48%, 20% 39%, 33% 30%, 51% 26%, 66% 31%, 79% 40%, 89% 49%, 100% 60%, 100% 100%, 1% 100%);
+    }
+}

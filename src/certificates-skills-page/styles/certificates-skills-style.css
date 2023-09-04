@@ -1,0 +1,93 @@
+.certificates-skills-video {
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+}
+
+.certificates-skills-title {
+    position: absolute;
+    color: transparent;
+    font-size: 4.5rem;
+    top: 5%;
+    -webkit-text-stroke: 2px #ffffff;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(20%);
+    transition: all 0.8s ease;
+}
+
+.logo-image {
+    top: 4%;
+    left: 90%;
+    width: 7%;
+    position: absolute;
+}
+
+.back-button {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem;
+    top: 2%;
+    left: 4%;
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.2);
+}
+
+.div-line {
+    content: "";
+    font-size: 10rem;
+    -webkit-text-stroke: 1px #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    top: 68%;
+    width: 38%;
+    height: 0.2%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+.main-section ul{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.certificates-list {
+    text-align: right;
+    position: absolute;
+    left: 5%;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(20%);
+    transition: all 0.9s ease;
+    transition-delay: 0.2s;
+}
+
+.item-title {
+    font-weight: 800;
+}
+
+.skills-list {
+    position: absolute;
+    top: 29.5%;
+    left: 52%;
+    font-weight: 400;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 0.9s ease;
+    transition-delay: 0.4s;
+}
+
+.certificates-skills-title.show,
+.certificates-list.show,
+.skills-list.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}

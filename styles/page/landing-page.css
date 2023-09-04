@@ -1,0 +1,53 @@
+.landing-page-title {
+    position: absolute;
+    color: transparent;
+    font-size: 8rem;
+    -webkit-text-stroke: 2px #ffffff;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 1s ease;
+    transition-delay: 0.5s;
+}
+
+.landing-page-title.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.landing-page-video {
+    position: absolute;
+    width: 100%;
+}
+
+.landing-page-subtitle {
+    position: absolute;
+    top: 48%;
+    color: transparent;
+    font-size: 5rem;
+    -webkit-text-stroke: 2px #ffffff;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 1s ease;
+    transition-delay: 0.8s;
+}
+
+.landing-page-subtitle.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.about-me {
+    height: 110vh;
+}
+
+.logo-image {
+    width: 7%;
+    top: 4%;
+    left: 2%;
+    position: absolute;
+    z-index: 1;
+}

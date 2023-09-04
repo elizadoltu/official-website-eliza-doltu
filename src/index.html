@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/page/landing-page.css" />
+    <link rel="stylesheet" href="/styles/main-style.css" />
+    <link rel="stylesheet" href="/styles/page/about-me-photo.css" />
+    <link rel="stylesheet" href="/styles/page/menu-see-more.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/images/eliza-website-favicon-white.png"
+      type="image/x-icon"
+    />
+    <title>Eliza - Teodora Doltu</title>
+  </head>
+  <main>
+    <header>
+      <nav class="nav-bar-landing">
+        <!-- <img
+          src="/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
+          alt="eliza-logo"
+          class="logo-image"
+        /> -->
+      </nav>
+    </header>
+    <body>
+      <section class="landing-page">
+        <img
+          src="/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
+          alt="eliza-logo"
+          class="logo-image"
+        />
+        <video
+          class="landing-page-video"
+          autoplay
+          loop
+          src="/videos/pexels-pachon-in-motion-15283125 (1080p).mp4"
+        ></video>
+        <h2 class="landing-page-title">Eliza - Teodora Doltu</h2>
+        <h2 class="landing-page-subtitle">&lt;/Student. Developer./&gt;</h2>
+      </section>
+      <section class="about-me current-page">
+        <img src="/images/me-image.jpg" alt="photo-of-eliza" class="me-photo" />
+
+        <h2 class="about-me-title title-1">&lt;/About me/&gt;</h2>
+        <h2 class="about-me-title title-2">&lt;/About me/&gt;</h2>
+
+        <p class="about-me-description">
+          Hi, I'm Eliza-Teodora Doltu, a Computer Science student at "Alexandru
+          Ioan Cuza" University, Iasi. I'm a robotics enthusiast with skills in
+          Python, C++, HTML, CSS, and JavaScript. I love nature, skiing,
+          football, and investing in cryptocurrency and stocks. I'm also a
+          freelancer front-end developer and the CEO of BeDeveloper Romania.
+        </p>
+        <button class="here-for-more" id="see-more-button">
+          &#8594; See More About Me
+        </button>
+      </section>
+      <section class="about-me menu-see-more hidden" id="menu-more">
+        <video
+          autoplay
+          loop
+          class="menu-video"
+          src="/videos/pexels-film-composite-16392052 (1080p).mp4"
+        ></video>
+        <a href="/src/experience-page/experience-page.html"
+          ><h2 class="menu-item-list item-1 animation-1">
+            &#8594; Experience
+          </h2></a
+        >
+        <a href="/src/education-page/education-page.html"
+          ><h2 class="menu-item-list item-2 animation-2">
+            &#8594; Education
+          </h2></a
+        >
+        <a href="/src/project-page/project-page.html"
+          ><h2 class="menu-item-list item-3 animation-3">
+            &#8594; Projects
+          </h2></a
+        >
+        <a href="/src/certificates-skills-page/certificates-skills.html"
+          ><h2 class="menu-item-list item-4 animation-4">
+            &#8594; Certificates & Skills
+          </h2></a
+        >
+        <a href="/src/index.html"><p class="close-button">+</p></a>
+        <a href="/src/index.html">
+          <img
+            src="/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
+            alt="eliza-logo"
+            class="logo-image menu"
+        /></a>
+      </section>
+    </body>
+    <script src="/scripts/open-menu.js"></script>
+    <script src="/scripts/show-animation.js"></script>
+    <footer></footer>
+  </main>
+</html>
