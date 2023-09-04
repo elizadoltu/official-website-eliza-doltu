@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/normalize.css" />
-    <link rel="stylesheet" href="/styles/page/landing-page.css" />
-    <link rel="stylesheet" href="/styles/main-style.css" />
-    <link rel="stylesheet" href="/styles/page/about-me-photo.css" />
-    <link rel="stylesheet" href="/styles/page/menu-see-more.css" />
+    <link rel="stylesheet" href="/src/styles/normalize.css" />
+    <link rel="stylesheet" href="/src/styles/page/landing-page.css" />
+    <link rel="stylesheet" href="/src/styles/main-style.css" />
+    <link rel="stylesheet" href="/src/styles/page/about-me-photo.css" />
+    <link rel="stylesheet" href="/src/styles/page/menu-see-more.css" />
+    <link rel="stylesheet" href="/src/styles/page/footer-style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,8 +16,12 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
       rel="shortcut icon"
-      href="/images/eliza-website-favicon-white.png"
+      href="/src/images/eliza-website-favicon-white.png"
       type="image/x-icon"
     />
     <title>Eliza - Teodora Doltu</title>
@@ -34,7 +39,7 @@
     <body>
       <section class="landing-page">
         <img
-          src="/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
+          src="/src/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
           alt="eliza-logo"
           class="logo-image"
         />
@@ -42,13 +47,17 @@
           class="landing-page-video"
           autoplay
           loop
-          src="/videos/pexels-pachon-in-motion-15283125 (1080p).mp4"
+          src="/src/videos/pexels-pachon-in-motion-15283125 (1080p).mp4"
         ></video>
         <h2 class="landing-page-title">Eliza - Teodora Doltu</h2>
         <h2 class="landing-page-subtitle">&lt;/Student. Developer./&gt;</h2>
       </section>
       <section class="about-me current-page">
-        <img src="/images/me-image.jpg" alt="photo-of-eliza" class="me-photo" />
+        <img
+          src="/src/images/me-image.jpg"
+          alt="photo-of-eliza"
+          class="me-photo"
+        />
 
         <h2 class="about-me-title title-1">&lt;/About me/&gt;</h2>
         <h2 class="about-me-title title-2">&lt;/About me/&gt;</h2>
@@ -69,7 +78,7 @@
           autoplay
           loop
           class="menu-video"
-          src="/videos/pexels-film-composite-16392052 (1080p).mp4"
+          src="/src/videos/pexels-film-composite-16392052 (1080p).mp4"
         ></video>
         <a href="/src/experience-page/experience-page.html"
           ><h2 class="menu-item-list item-1 animation-1">
@@ -94,14 +103,52 @@
         <a href="/src/index.html"><p class="close-button">+</p></a>
         <a href="/src/index.html">
           <img
-            src="/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
+            src="/src/images/eliza-high-resolution-logo-white-on-transparent-background (2).png"
             alt="eliza-logo"
             class="logo-image menu"
         /></a>
       </section>
     </body>
-    <script src="/scripts/open-menu.js"></script>
-    <script src="/scripts/show-animation.js"></script>
-    <footer></footer>
+    <script src="/src/scripts/open-menu.js"></script>
+    <script src="/src/scripts/show-animation.js"></script>
+    <footer class="footer">
+      <h2 class="footer-title">You can find me here</h2>
+      <span class="material-symbols-outlined"> mail </span>
+      <span class="material-symbols-outlined icon-1"> mail </span>
+      <a href="mailto:elizadoltuofficial@gmail.com" class="email-link"
+        >Personal Email</a
+      >
+      <a href="mailto:bedeveloperinfo@gmail.com" class="business-email"
+        >Business Email</a
+      >
+      <img
+        src="/src/images/facebook-icon.png"
+        alt="facebook-icon"
+        class="facebook-icon"
+      />
+      <a
+        href="https://www.facebook.com/dteodora.eliza/"
+        class="facebook-link"
+        target="_blank"
+        >Facebook</a
+      >
+      <img
+        src="/src/images/phone-icon-white-5.jpg"
+        alt="phone-logo"
+        class="phono-logo"
+      />
+      <a href="tel:+40792179657" class="phone-number">WhatsApp</a>
+      <img
+        src="/src/images/linkedin-icon-18-256.png"
+        alt="linkedin-icon"
+        class="linkedin-icon"
+      />
+      <a
+        href="https://www.linkedin.com/in/eliza-teodora-doltu-56336b24a/"
+        class="linkedin-link"
+        target="_blank"
+        >LinkedIn</a
+      >
+    </footer>
   </main>
 </html>

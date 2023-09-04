@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const currentPage = document.querySelector('.about-me.current-page');
     const newPage = document.querySelector('.about-me.menu-see-more');
     const landingPage = document.querySelector('.landing-page');
+    const footerSection = document.querySelector('.footer');
 
     openButton.addEventListener('click', function () {
         // Slide the landing page to the left
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => {
             currentPage.classList.add('hidden');
             landingPage.style.display = 'none';
+            footerSection.style.display = 'none';
         }, 500); // 500 milliseconds matches the transition duration
     });
 
@@ -35,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => {
             currentPage.classList.remove('hidden');
             landingPage.style.display = 'block';
+            footerSection.style.display = 'block';
         }, 500); // 500 milliseconds matches the transition duration
     });
 });
