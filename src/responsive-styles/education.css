@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px){
+    
+    .main-section .logo-image {
+        width: 18%;
+        left: 75%;
+        top: 5%;
+    }
+
+    .main-section .education-title {
+        font-size: 48px;
+        top: 15%;
+    }
+
+    .main-section .back-button {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .main-section .university-list {
+        font-size: 20px;
+        left: 18%;
+        text-align: left;
+    }
+
+    .main-section .highschool-list {
+        font-size: 20px;
+        left: 18%;
+    }
+
+    .main-section .primary-school-1 {
+        font-size: 20px;
+        left: 18%;
+    }
+
+    .main-section .primary-school-2 {
+        font-size: 20px;
+        left: 18%;
+        text-align: left;
+    }
+
+    .main-section .university-list .item-institution, 
+    .main-section .highschool-list .item-institution,
+    .main-section .primary-school-1 .item-institution,
+    .main-section .primary-school-2 .item-institution {
+        font-size: 25px;
+    }
+
+    .main-section .university-list .item-period,
+    .main-section .highschool-list .item-period,
+    .main-section .primary-school-1 .item-period,
+    .main-section .primary-school-2 .item-period {
+        font-size: 20px;
+    }
+
+    .material-symbols-outlined.symbol-1 {
+        top: 38%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-2 {
+        top: 58%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-3 {
+        top: 78%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-4 {
+        top: 98%;
+        margin-right: 60%;
+    }
+
+    .main-section .div-line {
+        width: 155%;
+        margin-right: 60%;
+    }
+}

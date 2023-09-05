@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px){
+    .main-section .certificates-skills-title {
+        font-size: 55px;
+        text-align: center;
+        top: 15%;
+    }
+
+    .main-section .logo-image {
+        width: 18%;
+        left: 75%;
+        top: 6%;
+    }
+
+    .main-section .back-button {
+        font-size: 25px;
+        left: 8%;
+        top: 4%;
+    }
+
+    .main-section .certificates-list {
+        font-size: 29px;
+        top: 40%;
+        left: 6%;
+        text-align: left;
+    }
+
+    .main-section .skills-list {
+        font-size: 29px;
+        top: 80%;
+        left: 6%;
+    }
+
+    .main-section .certificates-skills-video {
+        height: 200vh;
+    }
+
+    .main-section .div-line {
+        width: 220%;
+        margin-top: 50%;
+        margin-right: 80%;
+    }
+
+    .material-symbols-outlined {
+        position: absolute;
+        color: #ffffff;
+        font-size: 2rem;
+        z-index: 2;
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+    }
+    
+    .material-symbols-outlined.symbol-1 {
+        top: 44.5%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-2 {
+        top: 84.5%;
+        left: 7%;
+    }
+}

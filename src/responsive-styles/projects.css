@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px){
+    .main-section .projects-title {
+        font-size: 45px;
+        top: 15%;
+    }
+
+    .main-section .logo-image {
+        width: 18%;
+        left: 75%;
+        top: 6%;
+    }
+
+    .main-section .back-button {
+        font-size: 25px;
+        left: 10%;
+        top: 4%;
+    }
+
+    .main-section .first-website,
+    .main-section .bedeveloper-romania,
+    .main-section .segmente,
+    .main-section .multiverse,
+    .main-section .lego, 
+    .main-section .ppt-presentation {
+        font-size: 18px;
+        text-align: left;
+        left: 8%;
+    }
+
+    .first-website .item-title,
+    .bedeveloper-romania .item-title,
+    .segmente .item-title,
+    .multiverse .item-title, 
+    .lego .item-title, 
+    .ppt-presentation .item-title{
+        font-size: 20px;
+    }
+
+    .first-website .skills-item,
+    .bedeveloper-romania .skills-item,
+    .segmente .skills-item,
+    .multiverse .skills-item,
+    .lego .skills-item,
+    .ppt-presentation .skills-item {
+        font-size: 16px;
+    }
+
+    .first-website .links-item,
+    .bedeveloper-romania .links-item,
+    .segmente .links-item,
+    .multiverse .links-item,
+    .lego .links-item,
+    .ppt-presentation .links-item {
+        font-size: 16px;
+    }
+
+    .main-section .lego {
+        margin-top: 10%;
+    }
+
+    .main-section .ppt-presentation {
+        margin-top: 15%;
+    }
+
+    .material-symbols-outlined.symbol-1 {
+        top: 36%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-2 {
+        top: 50%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-3 {
+        top: 66%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-4 {
+        top: 81%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-5 {
+        top: 99%;
+        left: 7%;
+    }
+    
+    .material-symbols-outlined.symbol-6 {
+        top: 116%;
+        left: 7%;
+    }
+
+    .main-section .div-line {
+        width: 200%;
+        margin-right: 79.5%;
+    }
+}
