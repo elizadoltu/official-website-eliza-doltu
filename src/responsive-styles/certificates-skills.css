@@ -87,7 +87,7 @@
 
     .main-section .background-image {
         display: block;
-        width: 100%;
+        width: 100vh;
         position: absolute;
         object-fit: cover;
         height: 190vh;
