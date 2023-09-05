@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px){
+
+    body {
+        overflow-x: hidden;
+    }
+
     .main-section .certificates-skills-title {
         font-size: 55px;
         text-align: center;
