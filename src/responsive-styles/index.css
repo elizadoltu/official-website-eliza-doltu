@@ -5,6 +5,13 @@
         width: 100%;
         height: 100vh;
         object-fit: cover;
+        display: none;
+    }
+
+    .landing-image {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
 
     .landing-page-title {
@@ -129,10 +136,17 @@
 
     .menu-video {
        position: absolute;
-        display: flex;
+        
         width: 100%;
         height: 120vh;
         object-fit: cover;
+        display: none;
+    }
+
+    .menu-image {
+        width: 100%;
+        object-fit: cover;
+        height: 120vh;
     }
 
     .menu-item-list {
@@ -154,6 +168,17 @@
     .experience-title {
         top: 15%;
         font-size: 45px;
+    }
+
+    .experience-video {
+        display: none;
+    }
+
+    .experience-background {
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        height: 120vh;
     }
 
     .back-button {

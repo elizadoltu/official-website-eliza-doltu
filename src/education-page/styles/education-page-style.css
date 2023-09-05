@@ -20,6 +20,10 @@
     -webkit-text-stroke: 2px #ffffff;
 }
 
+.background-image {
+    display: none;
+}
+
 .back-button {
     position: absolute;
     color: #ffffff;

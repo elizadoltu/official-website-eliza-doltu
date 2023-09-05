@@ -96,4 +96,16 @@
         width: 200%;
         margin-right: 79.5%;
     }
+
+    .projects-video {
+        display: none;
+    }
+
+    .main-section .background-image {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 150vh;
+        object-fit: cover;
+    }
 }

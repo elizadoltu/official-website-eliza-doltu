@@ -40,7 +40,7 @@
     }
 
     .main-section .div-line {
-        width: 220%;
+        width: 210%;
         margin-top: 50%;
         margin-right: 80%;
     }
@@ -65,5 +65,17 @@
     .material-symbols-outlined.symbol-2 {
         top: 84.5%;
         left: 7%;
+    }
+
+    .certificates-skills-video {
+        display: none;
+    }
+
+    .main-section .background-image {
+        display: block;
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        height: 190vh;
     }
 }

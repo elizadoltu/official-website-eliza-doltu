@@ -5,6 +5,10 @@
     object-fit: cover;
 }
 
+.background-image {
+    display: none;
+}
+
 .certificates-skills-title {
     position: absolute;
     color: transparent;
