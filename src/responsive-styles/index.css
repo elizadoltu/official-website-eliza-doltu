@@ -196,11 +196,17 @@
         font-size: 20px;
         text-align: left;
         left: 25%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .tech-member {
         font-size: 20px;
         left: 25%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .volunteer-1 {
@@ -208,11 +214,17 @@
         text-align: left;
         top: 72%;
         left: 25%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .volunteer-2 {
         font-size: 20px;
         left: 25%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .list-student .item-title,

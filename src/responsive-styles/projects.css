@@ -38,6 +38,9 @@
         font-size: 18px;
         text-align: left;
         left: 8%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .first-website .item-title,

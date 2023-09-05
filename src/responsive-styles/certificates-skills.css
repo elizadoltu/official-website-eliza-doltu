@@ -35,12 +35,18 @@
         top: 40%;
         left: 6%;
         text-align: left;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .skills-list {
         font-size: 29px;
         top: 80%;
         left: 6%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .certificates-skills-video {

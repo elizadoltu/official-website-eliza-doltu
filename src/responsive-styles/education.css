@@ -32,22 +32,34 @@
         font-size: 20px;
         left: 18%;
         text-align: left;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .highschool-list {
         font-size: 20px;
         left: 18%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .primary-school-1 {
         font-size: 20px;
         left: 18%;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .primary-school-2 {
         font-size: 20px;
         left: 18%;
         text-align: left;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .main-section .university-list .item-institution, 
