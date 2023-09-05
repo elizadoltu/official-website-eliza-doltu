@@ -109,7 +109,7 @@
         position: absolute;
         display: block;
         object-fit: cover;
-        width: 10vh;
+        width: 100vh;
         height: 120vh;
         overflow: hidden;
         overflow-y: hidden;
