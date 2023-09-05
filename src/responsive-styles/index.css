@@ -175,6 +175,7 @@
     }
 
     .experience-background {
+        display: block;
         position: absolute;
         width: 100%;
         object-fit: cover;
