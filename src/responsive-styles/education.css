@@ -1,4 +1,16 @@
 @media screen and (max-width: 768px){
+
+    body {
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    section {
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
     
     .main-section .logo-image {
         width: 18%;
