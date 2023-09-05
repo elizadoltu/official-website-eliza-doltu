@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.success-box-message {
+    background-color: #ffffff;
+    top: 40%;
+    left: 42%;
+    width: 300px;
+    padding: 20px 20px 30px 40px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.background-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.second-message {
+    margin-top: -2%;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #c13268;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+}
+
