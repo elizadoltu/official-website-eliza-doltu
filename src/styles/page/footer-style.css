@@ -141,6 +141,7 @@
 .your-name label input,
 .your-email label input,
 .your-message label textarea {
+    color: #c13268;
     background-color: rgb(49, 49, 49);
     border: 0;
 }
