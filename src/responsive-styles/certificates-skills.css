@@ -85,5 +85,8 @@
         position: absolute;
         object-fit: cover;
         height: 190vh;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
