@@ -128,3 +128,56 @@
         overflow-x: hidden;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1281px){
+    
+    .main-section .first-website,
+    .main-section .bedeveloper-romania,
+    .main-section .segmente,
+    .main-section .multiverse,
+    .main-section .lego,
+    .main-section .ppt-presentation {
+        font-size: 1.5rem;
+        text-align: left;
+        left: 20%;
+    }
+
+    .main-section .div-line {
+        margin-right: 68%;
+    }
+
+    .material-symbols-outlined.symbol-1 {
+        top: 36%;
+        left: 15.1%;
+    }
+    
+    .material-symbols-outlined.symbol-2 {
+        top: 50%;
+        left: 7%;
+        left: 15.1%;
+    }
+    
+    .material-symbols-outlined.symbol-3 {
+        top: 66%;
+        left: 7%;
+        left: 15.1%;
+    }
+    
+    .material-symbols-outlined.symbol-4 {
+        top: 81%;
+        left: 7%;
+        left: 15.1%;
+    }
+    
+    .material-symbols-outlined.symbol-5 {
+        top: 99%;
+        left: 7%;
+        left: 15.1%;
+    }
+    
+    .material-symbols-outlined.symbol-6 {
+        top: 116%;
+        left: 7%;
+        left: 15.1%;
+    }
+}

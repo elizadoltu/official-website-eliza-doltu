@@ -116,3 +116,59 @@
         overflow-x: hidden;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1281px){
+    
+    .education-video {
+        width: 100%;
+    }
+
+    .main-section .university-list {
+        font-size: 1.5rem;
+        text-align: left;
+        left: 20%;
+    }
+
+    .main-section .item-institution {
+        font-size: 2rem;
+    }
+
+    .main-section .primary-school-1 {
+        left: 20%;
+    }
+
+    .main-section .primary-school-2 {
+        text-align: left;
+        left: 20%;
+    }
+
+    .main-section .highschool-list {
+        font-size: 1.5rem;
+        left: 20%;
+    }
+
+    .material-symbols-outlined.symbol-1 {
+        top: 38%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-2 {
+        top: 58%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-3 {
+        top: 78%;
+        margin-right: 60%;
+    }
+    
+    .material-symbols-outlined.symbol-4 {
+        top: 98%;
+        margin-right: 60%;
+    }
+    
+    .main-section .div-line {
+        width: 50%;
+        margin-right: 60%;
+    }
+}
