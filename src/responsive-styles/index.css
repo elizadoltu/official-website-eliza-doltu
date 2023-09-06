@@ -269,6 +269,10 @@
         object-fit: cover;
     }
 
+    .icon-1 {
+        margin-top: 3%;
+    }
+
     .about-me-title {
         margin-top: 150px;
         font-size: 3rem;
@@ -302,9 +306,6 @@
         margin-top: -7.5%;
     }
 
-    .icon-1 {
-        margin-top: 3%;
-    }
 
     .facebook-icon {
         width: 3%;
@@ -383,7 +384,7 @@
         left: 25%;
     }
 
-    .material-symbols-outlined {
+    .main-section .material-symbols-outlined {
         left: 22%;
     }
 
