@@ -1,43 +1,36 @@
 document.addEventListener('DOMContentLoaded', function () {
     const openButton = document.getElementById('see-more-button');
-    const backButton = document.getElementById('back-to-menu-button'); // Add this line
-    const closeButton = document.querySelector('.close-button');
+    const backButton = document.getElementById('back-to-menu-button');
     const currentPage = document.querySelector('.about-me.current-page');
-    const newPage = document.querySelector('.about-me.menu-see-more');
-    const landingPage = document.querySelector('.landing-page');
-    const footerSection = document.querySelector('.footer');
+    const menuPage = document.querySelector('.menu-see-more');
+
+    function hideMenu() {
+        // Hide the menu with a sliding animation to the left
+        menuPage.classList.remove('menu-visible');
+        menuPage.classList.add('menu-hidden');
+
+        // Show the current page
+        currentPage.classList.add('menu-visible');
+        currentPage.classList.remove('menu-hidden');
+    }
+
+    function showMenu() {
+        // Hide the current page
+        currentPage.classList.remove('menu-visible');
+        currentPage.classList.add('menu-hidden');
+
+        // Show the menu with a sliding animation from the left
+        menuPage.classList.add('menu-visible');
+        menuPage.classList.remove('menu-hidden');
+    }
 
     openButton.addEventListener('click', function () {
-        // Slide the landing page to the left
-        currentPage.style.transform = 'translateX(-100%)';
-
-        // Slide the menu to the right and fade in
-        newPage.style.transform = 'translateX(0)';
-        newPage.style.opacity = 1;
-        newPage.classList.remove('hidden');
-
-        setTimeout(() => {
-            currentPage.classList.add('hidden');
-            landingPage.style.display = 'none';
-            footerSection.style.display = 'none';
-        }, 500); // 500 milliseconds matches the transition duration
+        // Show the menu when the "See More About Me" button is clicked
+        showMenu();
     });
 
     backButton.addEventListener('click', function () {
-        // Slide the landing page back to the right and fade in
-        currentPage.style.transform = 'translateX(0)';
-        currentPage.style.opacity = 1;
-
-        // Slide the menu back to the left and fade out
-        newPage.style.transform = 'translateX(100%)';
-        newPage.style.opacity = 0;
-        newPage.classList.add('hidden'); // Hide the menu after sliding out
-
-        // After the animation duration (in milliseconds), show the landing page
-        setTimeout(() => {
-            currentPage.classList.remove('hidden');
-            landingPage.style.display = 'block';
-            footerSection.style.display = 'block';
-        }, 500); // 500 milliseconds matches the transition duration
+        // Hide the menu and show the current page when the "Back" button is clicked
+        hideMenu();
     });
 });
